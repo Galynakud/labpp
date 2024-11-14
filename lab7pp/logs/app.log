@@ -1,0 +1,1496 @@
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Accessing interest rate for credit: Споживчий кредит, interest rate: 5.5
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Increased credit amount for: Споживчий кредит by: 1000.0, new amount: 6000.0
+2024-11-14 21:28:55 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Updating early repayment status for credit: Споживчий кредит to: false
+2024-11-14 21:28:55 [main] INFO : Checking early repayment status for credit: Споживчий кредит, status: false
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Updating interest rate for credit: Споживчий кредит, from: 5.5 to: 6.0
+2024-11-14 21:28:55 [main] INFO : Accessing interest rate for credit: Споживчий кредит, interest rate: 6.0
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Accessing term months for credit: Споживчий кредит, term: 24 months
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Checking early repayment status for credit: Споживчий кредит, status: true
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Updating term months for credit: Споживчий кредит, from: 24 to: 36
+2024-11-14 21:28:55 [main] INFO : Accessing term months for credit: Споживчий кредит, term: 36 months
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Updating credit amount for: Споживчий кредит, from: 5000.0 to: 6000.0
+2024-11-14 21:28:55 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:28:55 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:28:55 [main] INFO : Updating credit name from: Споживчий кредит to: Новий кредит
+2024-11-14 21:28:55 [main] INFO : Accessing credit name: Новий кредит
+2024-11-14 21:28:56 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:28:56 [main] INFO : Executing AdminLoginCommand.
+2024-11-14 21:28:56 [main] ERROR: Error during admin login execution: Login error
+java.lang.RuntimeException: Login error
+	at menu.Menu.adminLogin(Menu.java:90)
+	at command.AdminLoginCommand.execute(AdminLoginCommand.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3082)
+	at command.AdminLoginCommandTest.execute_whenAdminLoginThrowsException_shouldPropagateException(AdminLoginCommandTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:28:59 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:28:59 [main] INFO : Executing AdminLoginCommand.
+2024-11-14 21:28:59 [main] INFO : Admin login executed successfully.
+2024-11-14 21:28:59 [main] ERROR: File not found: nonexistent.txt
+java.io.FileNotFoundException: nonexistent.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at menu.UserMenu.loadSelectedCreditsFromFile(UserMenu.java:168)
+	at menu.UserMenuTest.testLoadSelectedCreditsFileNotFound(UserMenuTest.java:136)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:29:01 [main] INFO : Client selected credit: Test Credit
+2024-11-14 21:29:01 [main] ERROR: Error saving selected credits to file: invalid_path\credits.txt (The system cannot find the path specified)
+java.io.FileNotFoundException: invalid_path\credits.txt (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:67)
+	at menu.UserMenu.saveSelectedCreditsToFile(UserMenu.java:152)
+	at menu.UserMenuTest.testSaveSelectedCreditsToFileIOException(UserMenuTest.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:29:04 [main] WARN : Invalid menu choice: 9
+2024-11-14 21:29:04 [main] WARN : Credit not found: Nonexistent Credit
+2024-11-14 21:29:04 [main] INFO : Selected credits saved to file: credits.txt
+2024-11-14 21:29:04 [main] ERROR: Invalid input for increasing credit line.
+2024-11-14 21:29:04 [main] INFO : Early repayment processed for credit: null
+2024-11-14 21:29:04 [main] INFO : User selected option 1: Show all credits.
+2024-11-14 21:29:04 [main] INFO : Credit loaded from file: Test Credit
+2024-11-14 21:29:04 [main] ERROR: File not found: invalid_file.txt
+java.io.FileNotFoundException: invalid_file.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at menu.UserMenu.loadSelectedCreditsFromFile(UserMenu.java:168)
+	at menu.UserMenuTest.testLoadSelectedCreditsFileIOException(UserMenuTest.java:187)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:29:07 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:07 [main] INFO : Executing ClientLoginCommand.
+2024-11-14 21:29:07 [main] INFO : Client login executed successfully.
+2024-11-14 21:29:07 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:07 [main] INFO : Executing ClientLoginCommand.
+2024-11-14 21:29:07 [main] ERROR: Error during client login execution: Test Exception
+java.lang.RuntimeException: Test Exception
+	at menu.Menu.clientLogin(Menu.java:64)
+	at command.ClientLoginCommand.execute(ClientLoginCommand.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3082)
+	at command.ClientLoginCommandTest.testExecuteWhenClientLoginThrowsException(ClientLoginCommandTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] INFO : Accessing Admin username.
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] WARN : Accessing Admin password.
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] INFO : Accessing Admin username.
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] WARN : Accessing Admin password.
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] WARN : Accessing Admin password.
+2024-11-14 21:29:09 [main] INFO : Creating Admin instance.
+2024-11-14 21:29:09 [main] INFO : Accessing Admin username.
+2024-11-14 21:29:09 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:09 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:09 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:09 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:09 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:09 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:09 [main] INFO : Created credit: Оновлений кредит with amount: 10000.0, interest rate: 6.0%, term: 12 months, early repayment: false
+2024-11-14 21:29:09 [main] ERROR: Attempted to edit credit at invalid index: -1
+2024-11-14 21:29:10 [main] ERROR: Attempted to edit credit at invalid index: 20
+2024-11-14 21:29:12 [main] INFO : Accessing list of credits.
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Searching for credit by name: Несуществующий кредит
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Оновлений кредит with amount: 10000.0, interest rate: 6.0%, term: 12 months, early repayment: false
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Оновлений кредит
+2024-11-14 21:29:12 [main] INFO : Credit updated at index 0: Споживчий кредит -> Оновлений кредит
+2024-11-14 21:29:12 [main] INFO : Accessing list of credits.
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Новий кредит with amount: 5000.0, interest rate: 5.0%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Новий кредит
+2024-11-14 21:29:12 [main] INFO : Added new credit: Новий кредит
+2024-11-14 21:29:12 [main] INFO : Accessing list of credits.
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Searching for credit by name: Іпотечний кредит
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:12 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Accessing list of clients.
+2024-11-14 21:29:12 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:12 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:12 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:12 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:12 [main] INFO : Accessing list of credits.
+2024-11-14 21:29:12 [main] INFO : ExitCommand created with custom ExitHandler.
+2024-11-14 21:29:12 [main] INFO : Executing ExitCommand - preparing to exit the application.
+2024-11-14 21:29:12 [main] INFO : Exit command executed successfully.
+2024-11-14 21:29:12 [main] INFO : Application started.
+2024-11-14 21:29:12 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:29:12 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:29:13 [main] INFO : Bank system run completed successfully.
+2024-11-14 21:29:13 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:13 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:13 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:13 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:13 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created with menu.
+2024-11-14 21:29:13 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:13 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:13 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:13 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:13 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:29:13 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:13 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:13 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:13 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:13 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:13 [main] INFO : Accessing BankSystem menu.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:29:13 [main] INFO : BankSystem instance created with menu.
+2024-11-14 21:29:13 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:29:16 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:29:16 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:29:19 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:19 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:19 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:19 [main] INFO : Accessing BankSystem menu.
+2024-11-14 21:29:19 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:19 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:19 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:19 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:19 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:29:19 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:29:19 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:29:19 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:29:19 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Авто кредит, amount: 10000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Авто кредит with amount: 10000.0
+2024-11-14 21:29:19 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Increased credit amount for: Споживчий кредит by: 1000.0, new amount: 6000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко increased credit: Споживчий кредит by amount: 1000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing client's name: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Авто кредит, amount: 10000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Авто кредит with amount: 10000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Found credit by name: Споживчий кредит for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:19 [main] INFO : Found credit by name: Авто кредит for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко repaid credit: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing initial amount for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:29:19 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:29:19 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:29:19 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:29:19 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:29:19 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:19 [main] INFO : User selected option 0: Exit.
+2024-11-14 21:29:19 [main] INFO : Client 'clientName' logged in successfully.
+2024-11-14 21:29:19 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:19 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:19 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:19 [main] ERROR: Failed login attempt for client 'clientName'.
+2024-11-14 21:29:22 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:22 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:22 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:22 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:22 [main] ERROR: Failed login attempt for client 'clientName'.
+2024-11-14 21:29:23 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:23 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:23 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:23 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:23 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:23 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:23 [main] ERROR: Failed login attempt for admin 'adminUser'.
+2024-11-14 21:29:26 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:26 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:26 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:26 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:26 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:26 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:26 [main] ERROR: Failed login attempt for client ''.
+2024-11-14 21:29:28 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:29:28 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:29:28 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : Created credit:  with amount: 50000.0, interest rate: 7.5%, term: 0 months, early repayment: false
+2024-11-14 21:29:28 [main] INFO : New credit added: 
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:28 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:29:28 [main] INFO : Displayed all available credits.
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : Created credit:  with amount: 50000.0, interest rate: 7.5%, term: 0 months, early repayment: true
+2024-11-14 21:29:28 [main] INFO : New credit added: 
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:28 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with bank reference.
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:29:28 [main] INFO : Displayed all available credits.
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:29:28 [main] INFO : Updating credit name from: Home Loan to: null
+2024-11-14 21:29:28 [main] INFO : Updating credit amount for: null, from: 50000.0 to: 0.0
+2024-11-14 21:29:28 [main] INFO : Updating interest rate for credit: null, from: 7.5 to: 0.0
+2024-11-14 21:29:28 [main] INFO : Updating term months for credit: null, from: 24 to: 0
+2024-11-14 21:29:28 [main] INFO : Updating early repayment status for credit: null to: false
+2024-11-14 21:29:28 [main] INFO : Credit updated: null
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:29:28 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:29:28 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:29:28 [main] INFO : AdminMenu created with bank reference.
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:29:28 [main] INFO : Displayed all available credits.
+2024-11-14 21:29:28 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:29:28 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:29:28 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:29:28 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:29:28 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:29:28 [main] INFO : Updating credit name from: Home Loan to: null
+2024-11-14 21:29:28 [main] INFO : Updating credit amount for: null, from: 50000.0 to: 0.0
+2024-11-14 21:29:28 [main] INFO : Updating interest rate for credit: null, from: 7.5 to: 0.0
+2024-11-14 21:29:28 [main] INFO : Updating term months for credit: null, from: 24 to: 0
+2024-11-14 21:29:28 [main] INFO : Updating early repayment status for credit: null to: false
+2024-11-14 21:29:28 [main] INFO : Credit updated: null
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Accessing interest rate for credit: Споживчий кредит, interest rate: 5.5
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Increased credit amount for: Споживчий кредит by: 1000.0, new amount: 6000.0
+2024-11-14 21:32:44 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Updating early repayment status for credit: Споживчий кредит to: false
+2024-11-14 21:32:44 [main] INFO : Checking early repayment status for credit: Споживчий кредит, status: false
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Updating interest rate for credit: Споживчий кредит, from: 5.5 to: 6.0
+2024-11-14 21:32:44 [main] INFO : Accessing interest rate for credit: Споживчий кредит, interest rate: 6.0
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Accessing term months for credit: Споживчий кредит, term: 24 months
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Checking early repayment status for credit: Споживчий кредит, status: true
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Updating term months for credit: Споживчий кредит, from: 24 to: 36
+2024-11-14 21:32:44 [main] INFO : Accessing term months for credit: Споживчий кредит, term: 36 months
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Updating credit amount for: Споживчий кредит, from: 5000.0 to: 6000.0
+2024-11-14 21:32:44 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:32:44 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:44 [main] INFO : Updating credit name from: Споживчий кредит to: Новий кредит
+2024-11-14 21:32:44 [main] INFO : Accessing credit name: Новий кредит
+2024-11-14 21:32:45 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:32:45 [main] INFO : Executing AdminLoginCommand.
+2024-11-14 21:32:45 [main] ERROR: Error during admin login execution: Login error
+java.lang.RuntimeException: Login error
+	at menu.Menu.adminLogin(Menu.java:90)
+	at command.AdminLoginCommand.execute(AdminLoginCommand.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3082)
+	at command.AdminLoginCommandTest.execute_whenAdminLoginThrowsException_shouldPropagateException(AdminLoginCommandTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:32:48 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:32:48 [main] INFO : Executing AdminLoginCommand.
+2024-11-14 21:32:48 [main] INFO : Admin login executed successfully.
+2024-11-14 21:32:48 [main] ERROR: File not found: nonexistent.txt
+java.io.FileNotFoundException: nonexistent.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at menu.UserMenu.loadSelectedCreditsFromFile(UserMenu.java:168)
+	at menu.UserMenuTest.testLoadSelectedCreditsFileNotFound(UserMenuTest.java:136)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:32:50 [main] INFO : Client selected credit: Test Credit
+2024-11-14 21:32:50 [main] ERROR: Error saving selected credits to file: invalid_path\credits.txt (The system cannot find the path specified)
+java.io.FileNotFoundException: invalid_path\credits.txt (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:67)
+	at menu.UserMenu.saveSelectedCreditsToFile(UserMenu.java:152)
+	at menu.UserMenuTest.testSaveSelectedCreditsToFileIOException(UserMenuTest.java:177)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:32:51 [main] WARN : Invalid menu choice: 9
+2024-11-14 21:32:51 [main] WARN : Credit not found: Nonexistent Credit
+2024-11-14 21:32:51 [main] INFO : Selected credits saved to file: credits.txt
+2024-11-14 21:32:51 [main] ERROR: Invalid input for increasing credit line.
+2024-11-14 21:32:51 [main] INFO : Early repayment processed for credit: null
+2024-11-14 21:32:51 [main] INFO : User selected option 1: Show all credits.
+2024-11-14 21:32:51 [main] INFO : Credit loaded from file: Test Credit
+2024-11-14 21:32:51 [main] ERROR: File not found: invalid_file.txt
+java.io.FileNotFoundException: invalid_file.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at menu.UserMenu.loadSelectedCreditsFromFile(UserMenu.java:168)
+	at menu.UserMenuTest.testLoadSelectedCreditsFileIOException(UserMenuTest.java:187)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:32:55 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:32:55 [main] INFO : Executing ClientLoginCommand.
+2024-11-14 21:32:55 [main] INFO : Client login executed successfully.
+2024-11-14 21:32:55 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:32:55 [main] INFO : Executing ClientLoginCommand.
+2024-11-14 21:32:55 [main] ERROR: Error during client login execution: Test Exception
+java.lang.RuntimeException: Test Exception
+	at menu.Menu.clientLogin(Menu.java:64)
+	at command.ClientLoginCommand.execute(ClientLoginCommand.java:25)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3082)
+	at command.ClientLoginCommandTest.testExecuteWhenClientLoginThrowsException(ClientLoginCommandTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] INFO : Accessing Admin username.
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] WARN : Accessing Admin password.
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] INFO : Accessing Admin username.
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] WARN : Accessing Admin password.
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] WARN : Accessing Admin password.
+2024-11-14 21:32:57 [main] INFO : Creating Admin instance.
+2024-11-14 21:32:57 [main] INFO : Accessing Admin username.
+2024-11-14 21:32:57 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:32:57 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:32:57 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:32:57 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:32:57 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:32:57 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:32:57 [main] INFO : Created credit: Оновлений кредит with amount: 10000.0, interest rate: 6.0%, term: 12 months, early repayment: false
+2024-11-14 21:32:57 [main] ERROR: Attempted to edit credit at invalid index: -1
+2024-11-14 21:32:58 [main] ERROR: Attempted to edit credit at invalid index: 20
+2024-11-14 21:33:00 [main] INFO : Accessing list of credits.
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Searching for credit by name: Несуществующий кредит
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Оновлений кредит with amount: 10000.0, interest rate: 6.0%, term: 12 months, early repayment: false
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Оновлений кредит
+2024-11-14 21:33:00 [main] INFO : Credit updated at index 0: Споживчий кредит -> Оновлений кредит
+2024-11-14 21:33:00 [main] INFO : Accessing list of credits.
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Новий кредит with amount: 5000.0, interest rate: 5.0%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Новий кредит
+2024-11-14 21:33:00 [main] INFO : Added new credit: Новий кредит
+2024-11-14 21:33:00 [main] INFO : Accessing list of credits.
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Searching for credit by name: Іпотечний кредит
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:00 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Accessing list of clients.
+2024-11-14 21:33:00 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:00 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:00 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:00 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:00 [main] INFO : Accessing list of credits.
+2024-11-14 21:33:00 [main] INFO : ExitCommand created with custom ExitHandler.
+2024-11-14 21:33:00 [main] INFO : Executing ExitCommand - preparing to exit the application.
+2024-11-14 21:33:00 [main] INFO : Exit command executed successfully.
+2024-11-14 21:33:00 [main] INFO : Application started.
+2024-11-14 21:33:00 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:33:00 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:33:02 [main] INFO : Bank system run completed successfully.
+2024-11-14 21:33:02 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:02 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:02 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:02 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:02 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created with menu.
+2024-11-14 21:33:02 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:02 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:02 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:02 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:02 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:33:02 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:02 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:02 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:02 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:02 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:02 [main] INFO : Accessing BankSystem menu.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:33:02 [main] INFO : BankSystem instance created with menu.
+2024-11-14 21:33:02 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:33:03 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:33:03 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:33:05 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:05 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:05 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:05 [main] INFO : Accessing BankSystem menu.
+2024-11-14 21:33:05 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:05 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:05 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:05 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:05 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:33:05 [main] INFO : Creating Bank instance and initializing default credits and clients.
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Created client: Олена Коваленко with initial amount: 7000.0
+2024-11-14 21:33:05 [main] INFO : Bank instance created with default credits and clients.
+2024-11-14 21:33:05 [main] INFO : BankSystem instance created with bank and menu.
+2024-11-14 21:33:05 [main] INFO : BankSystem is running. Displaying main menu.
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Авто кредит, amount: 10000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Авто кредит with amount: 10000.0
+2024-11-14 21:33:05 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Increased credit amount for: Споживчий кредит by: 1000.0, new amount: 6000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко increased credit: Споживчий кредит by amount: 1000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 6000.0
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing client's name: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Авто кредит, amount: 10000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Авто кредит with amount: 10000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Found credit by name: Споживчий кредит for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:05 [main] INFO : Found credit by name: Авто кредит for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Авто кредит
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко repaid credit: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing initial amount for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : Created client: Іван Петренко with initial amount: 100.0
+2024-11-14 21:33:05 [main] INFO : Created credit: Споживчий кредит with amount: 5000.0, interest rate: 5.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Created credit: Авто кредит with amount: 10000.0, interest rate: 6.0%, term: 36 months, early repayment: true
+2024-11-14 21:33:05 [main] INFO : Accessing credit name: Споживчий кредит
+2024-11-14 21:33:05 [main] INFO : Accessing credit amount for: Споживчий кредит, amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Client Іван Петренко took credit: Споживчий кредит with amount: 5000.0
+2024-11-14 21:33:05 [main] INFO : Accessing selected credits for client: Іван Петренко
+2024-11-14 21:33:05 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:05 [main] INFO : User selected option 0: Exit.
+2024-11-14 21:33:05 [main] INFO : Client 'clientName' logged in successfully.
+2024-11-14 21:33:05 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:05 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:05 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:05 [main] ERROR: Failed login attempt for client 'clientName'.
+2024-11-14 21:33:06 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:06 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:06 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:06 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:06 [main] ERROR: Failed login attempt for client 'clientName'.
+2024-11-14 21:33:08 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:08 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:08 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:08 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:08 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:08 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:08 [main] ERROR: Failed login attempt for admin 'adminUser'.
+2024-11-14 21:33:11 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:11 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:11 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:11 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:11 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:11 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:11 [main] ERROR: Failed login attempt for client ''.
+2024-11-14 21:33:13 [main] INFO : ClientLoginCommand created with menu: Menu
+2024-11-14 21:33:13 [main] INFO : AdminLoginCommand created with menu: Menu
+2024-11-14 21:33:13 [main] INFO : ExitCommand created with default ExitHandler.
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : Created credit:  with amount: 50000.0, interest rate: 7.5%, term: 0 months, early repayment: false
+2024-11-14 21:33:13 [main] INFO : New credit added: 
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:13 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:33:13 [main] INFO : Displayed all available credits.
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : Created credit:  with amount: 50000.0, interest rate: 7.5%, term: 0 months, early repayment: true
+2024-11-14 21:33:13 [main] INFO : New credit added: 
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:13 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with bank reference.
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:33:13 [main] INFO : Displayed all available credits.
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:33:13 [main] INFO : Updating credit name from: Home Loan to: null
+2024-11-14 21:33:13 [main] INFO : Updating credit amount for: null, from: 50000.0 to: 0.0
+2024-11-14 21:33:13 [main] INFO : Updating interest rate for credit: null, from: 7.5 to: 0.0
+2024-11-14 21:33:13 [main] INFO : Updating term months for credit: null, from: 24 to: 0
+2024-11-14 21:33:13 [main] INFO : Updating early repayment status for credit: null to: false
+2024-11-14 21:33:13 [main] INFO : Credit updated: null
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with scanner and bank references.
+2024-11-14 21:33:13 [main] INFO : Created credit: Home Loan with amount: 50000.0, interest rate: 7.5%, term: 24 months, early repayment: true
+2024-11-14 21:33:13 [main] INFO : Created credit: Car Loan with amount: 20000.0, interest rate: 5.0%, term: 18 months, early repayment: false
+2024-11-14 21:33:13 [main] INFO : AdminMenu created with bank reference.
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Car Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Car Loan, amount: 20000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Car Loan, interest rate: 5.0
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Car Loan, term: 18 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Car Loan, status: false
+2024-11-14 21:33:13 [main] INFO : Displayed all available credits.
+2024-11-14 21:33:13 [main] INFO : Accessing credit name: Home Loan
+2024-11-14 21:33:13 [main] INFO : Accessing credit amount for: Home Loan, amount: 50000.0
+2024-11-14 21:33:13 [main] INFO : Accessing interest rate for credit: Home Loan, interest rate: 7.5
+2024-11-14 21:33:13 [main] INFO : Accessing term months for credit: Home Loan, term: 24 months
+2024-11-14 21:33:13 [main] INFO : Checking early repayment status for credit: Home Loan, status: true
+2024-11-14 21:33:13 [main] INFO : Updating credit name from: Home Loan to: null
+2024-11-14 21:33:13 [main] INFO : Updating credit amount for: null, from: 50000.0 to: 0.0
+2024-11-14 21:33:13 [main] INFO : Updating interest rate for credit: null, from: 7.5 to: 0.0
+2024-11-14 21:33:13 [main] INFO : Updating term months for credit: null, from: 24 to: 0
+2024-11-14 21:33:13 [main] INFO : Updating early repayment status for credit: null to: false
+2024-11-14 21:33:13 [main] INFO : Credit updated: null
+2024-11-14 21:34:24 [main] INFO : Application started.
+2024-11-14 21:34:24 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:34:24 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:34:26 [main] INFO : Bank system run completed successfully.
+2024-11-14 21:35:28 [main] INFO : Application started.
+2024-11-14 21:35:28 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:35:28 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:35:30 [main] INFO : Bank system run completed successfully.
+2024-11-14 21:36:03 [main] INFO : Application started.
+2024-11-14 21:36:03 [main] INFO : BankSystem instance created without menu.
+2024-11-14 21:36:03 [main] ERROR: Attempted to run BankSystem without a menu instance.
+2024-11-14 21:36:05 [main] INFO : Bank system run completed successfully.

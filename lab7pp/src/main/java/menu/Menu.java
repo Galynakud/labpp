@@ -1,5 +1,9 @@
 package menu;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Marker;
+import org.apache.logging.log4j.MarkerManager;
 import command.*;
 import bank.Bank;
 import bank.Admin;
@@ -10,6 +14,9 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Menu implements IMenu {
+    private static final Logger fileLogger = LogManager.getLogger("FileOnlyLogger");
+    private static final Logger errorLogger = LogManager.getLogger("ErrorLogger");
+    private static final Marker ERROR_MARKER = MarkerManager.getMarker("ERROR");
     private final Bank bank;
     private final Admin admin;
     private final Scanner scanner;
@@ -62,8 +69,10 @@ public class Menu implements IMenu {
         if (client != null) {
             UserMenu userMenu = new UserMenu(client, bank, scanner);
             userMenu.showClientMenu();
+            fileLogger.info("Client '{}' logged in successfully.", name);
         } else {
             System.out.println("Невірне ім'я або пароль.");
+            errorLogger.error(ERROR_MARKER, "Failed login attempt for client '{}'.", name);
         }
     }
 
@@ -86,8 +95,10 @@ public class Menu implements IMenu {
         if (admin != null && admin.getUsername().equals(username) && admin.getPassword().equals(password)) {
             AdminMenu adminMenu = new AdminMenu(admin, bank);
             adminMenu.showAdminMenu();
+            fileLogger.info("Admin '{}' logged in successfully.", username);
         } else {
             System.out.println("Невірне ім'я або пароль.");
+            errorLogger.error(ERROR_MARKER, "Failed login attempt for admin '{}'.", username);
         }
     }
 
