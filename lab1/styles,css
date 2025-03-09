@@ -1,0 +1,156 @@
+/* Основні стилі для десктопних пристроїв */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.city-grid div {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.building {
+    background: #ffcc00;
+}
+
+.road {
+    background: #666;
+    color: white;
+}
+
+.factory {
+    background: #999;
+}
+
+.park {
+    background: #4caf50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer .contact-info {
+    font-size: 16px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .contact-info strong {
+    font-size: 18px;
+}
+
+/* Медіа-запити для мобільних пристроїв */
+@media (max-width: 768px) {
+    .city-grid {
+        grid-template-columns: repeat(2, 80px); /* Зменшуємо кількість колонок */
+        max-width: 300px; /* Зменшуємо максимальну ширину */
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block; /* Перехід на вертикальне меню */
+        margin: 10px 0;
+    }
+
+    footer .contact-info {
+        font-size: 14px; /* Зменшуємо розмір шрифта для мобільних */
+    }
+
+    header {
+        padding: 0.5rem; /* Зменшуємо відступи у шапці */
+    }
+
+    /* Мобільні посилання */
+    .white-link {
+        text-decoration: underline; /* Додає підкреслення */
+        color: white; /* Задає білий колір */
+    }
+
+    /* Якщо хочеш, щоб посилання також змінювалося при наведенні */
+    .white-link:hover {
+        color: white; /* Залишає білий колір при наведенні */
+        text-decoration: underline; /* Залишає підкреслення при наведенні */
+    }
+}
+
+@media (max-width: 480px) {
+    .city-grid {
+        grid-template-columns: 1fr; /* Одна колонка для дуже маленьких екранів */
+        padding: 10px;
+    }
+
+    footer .contact-info {
+        font-size: 12px; /* Ще менший розмір шрифта для маленьких екранів */
+    }
+
+    header h1 {
+        font-size: 20px; /* Зменшуємо розмір заголовку */
+    }
+
+    nav ul li {
+        font-size: 14px; /* Зменшуємо розмір шрифта в меню */
+    }
+}
